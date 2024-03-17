@@ -1,0 +1,182 @@
+.logo {
+    border: 2px solid #03a9f4;
+    background-color: #03a9f4;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.login-container {
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.login-container form {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.login-container label {
+    margin-bottom: 5px; 
+}
+
+.login-container input {
+    padding: 8px;
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    width: calc(100% - 16px); 
+}
+
+.login-container button {
+    padding: 10px 15px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.login-container button:hover {
+    background-color: #0288d1; 
+}
+
+.error{
+    color: red;
+}
+
+.nav {
+    background-color: #03a9f4;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #0288d1; 
+}
+
+.addEmployeeForm {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addEmployeeForm label {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.addEmployeeForm input[type="text"],
+.addEmployeeForm input[type="email"],
+.addEmployeeForm input[type="tel"],
+.addEmployeeForm select,
+.addEmployeeForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+.addEmployeeForm button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.addEmployeeForm button:hover {
+    background-color: #0288d1; 
+}
+
+.employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employeeTable th, .employeeTable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.employeeTable th {
+    background-color: #f2f2f2;
+}
+
+.employeeTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.employeeTable tbody tr:hover {
+    background-color: #ddd;
+}
+
+.employeeTable img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.employeeTable button {
+    padding: 5px 10px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.employeeTable button:hover {
+    background-color: #0288d1;
+}
+
+.employeeTable input[type="checkbox"] {
+    cursor: pointer;
+}
